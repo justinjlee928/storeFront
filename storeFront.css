@@ -1,0 +1,35 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Start Upper NavBar */
+#upper-nav {
+  height: 70px;
+  border-bottom: 2px solid #eaeaeb;
+}
+
+#upper-nav p {
+  line-height: 70px;
+  float: left;
+  text-align: center;
+  font-size: 28px;
+  margin: 0;
+}
+
+#upper-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#upper-nav i {
+  text-align: center;
+  line-height: 70px;
+  float: right;
+  font-size: 28px;
+  padding: 0 10px;
+}
+
+/* End Upper NavBar */
