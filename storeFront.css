@@ -11,12 +11,13 @@ html, body {
   border-bottom: 2px solid #eaeaeb;
 }
 
-#upper-nav p {
+.logo {
   line-height: 70px;
   float: left;
   text-align: center;
   font-size: 28px;
   margin: 0;
+  padding-left: 20px;
 }
 
 #upper-nav a {
@@ -33,3 +34,45 @@ html, body {
 }
 
 /* End Upper NavBar */
+/* Start Main NavBar */
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+  padding: 0 14px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* End Main NavBar */
+/* Start Clearance Header */
+
+#clearance-header {
+  background-color: #fa93ab;
+  width: 100%;
+  height: 30px;
+}
+
+#clearance-header p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  margin: 0;
+}
+
+/* End Clearance Header */
