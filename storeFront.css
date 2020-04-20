@@ -76,7 +76,114 @@ nav a:hover {
 }
 
 /* End Clearance Header */
+/* Start Clearance Banner */
 
+header {
+  background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 10px 0;
+}
+
+header p {
+  width: 100%;
+  margin: 0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 68px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.clearance-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  border: 4px solid white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 28px;
+  font-family: sans-serif;
+  margin: 0 20px;
+}
+
+header a:hover {
+  opacity: 80%;
+  text-decoration: underline;
+}
+
+/* End Clearance Banner  */
+/* Start Product Landing One */
+
+#product-landing-one {
+  display: flex;
+  width: 100%;
+  background-color: #ffb5ef;
+}
+
+.left-one {
+  width: 50%;
+  height: 1350px;
+}
+
+.left-showcase {
+  height: 675px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-showcase p {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.left-buttons {
+  height: 675px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left-buttons a {
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+  border: 3px solid black;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 10px 100px;
+  margin: 20px 0;
+}
+
+.left-buttons a:hover {
+  text-decoration: underline;
+}
+
+.right-one {
+  width: 50%;
+  height: 1350px;
+}
+
+.right-one img {
+  width: 951px;
+  height: 1350px;
+}
+
+/* End Product Landing One */
 /* Start Social Media */
 
 #social-media {
@@ -115,3 +222,112 @@ nav a:hover {
 #social-media a:hover {
   text-decoration: underline;
 }
+
+/* End Social Media */
+/* Start Product Landing Two */
+
+#product-landing-two {
+  display: flex;
+  width: 100%;
+  background-color: #f8fa8e;
+  margin-top: 20px;
+}
+
+.right-two {
+  width: 50%;
+  height: 1350px;
+}
+
+.right-showcase {
+  height: 675px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-showcase p {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.left-two {
+  width: 50%;
+  height: 1350px;
+}
+
+.left-two img {
+  width: 951px;
+  height: 1350px;
+}
+
+.right-buttons {
+  height: 675px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right-buttons a {
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+  border: 3px solid black;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 10px 100px;
+  margin: 20px 0;
+}
+
+.right-buttons a:hover {
+  text-decoration: underline;
+}
+/* End Product Landing Two */
+/* Start Clearance Banner Two */
+
+.clearance-banner-two {
+  margin: 10px 0;
+  background-image: url("https://s7d2.scene7.com/is/image/aeo/20200324_chp_clrjeans_lg?scl=1&qlt=60&fmt=webp");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clearance-banner-two .small-print {
+  font-size: 20px;
+  margin: 0;
+}
+
+.clearance-banner-two p {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+}
+
+.clearance-container-two {
+  margin-top: 20px;
+}
+
+.clearance-banner-two a {
+  font-size: 38px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 20px 10px;
+}
+
+.clearance-banner-two a:hover {
+  text-decoration: underline;
+}
+
+/* End Clearane Banner Two */
